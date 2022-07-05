@@ -1,0 +1,43 @@
+table{
+    border: 10px black solid;
+    padding: 10px;
+    margin: 30px;
+}
+table th{
+     border: 1px solid rgb(19, 2, 2)
+}
+img {
+    width: 40%;
+    height: 40%;
+    border-radius: 30%;
+    margin-left: 60%;
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    margin: 10px;
+}
+nav {
+    display: inline;
+    font-family: roboto;
+}
+aside {
+    display: inline-block
+}
+input {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#nbr {
+    margin-left: 40px;
+}
+button {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+body {
+    background-color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

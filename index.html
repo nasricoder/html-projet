@@ -5,29 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio web page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
         <nav> 
             <div> 
-                <a href="#">navbar </a>
-                <a href="#"> home</a>
+                <a href="#"> home </a>
                 <a href="#"> about </a>
                 <a href="#"> work </a>
-                <a href="#"> resume </a>
-                <a href="#"> contact </a>
+                <a href="#page"> resume </a>
+                <a href="https://www.facebook.com/profile.php?id=100070530887199"> contact </a>  
             </div>
         </nav>
     </header>
-    <section> about </section>
-    <section> work </section>
-    <section> resume </section>
-    <section> contact </section>
+     <table>
+        <thead>
+            <tr>
+                <th> my projects </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th> html</th>
+                <th> market place</th>
+            </tr>
+            <tr>
+                <th> css </th>
+                <th> ux designer </th>
+            </tr>
+        </tbody>
+     </table>
+    
     <aside> 
-        <img src="nasri.jpg" alt="my img">
+        <img src="nasri1.jpg" alt="my img">
+        <p id="page"> my name is nasri amir , i'm 25 yers old and i'm a web designer from go my code school</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0m0hfdqXs48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </aside>
     <footer> 
-        <a href="https://www.facebook.com/profile.php?id=100070530887199"> my facebook page</a>
+        <form>
+           <div> 
+            <label for="name"> name : </label>
+            <input type="text">
+           </div>
+           <div>
+            <label for="telephone"> tel :</label>
+            <input id= "nbr" type="number">
+           </div>
+           <button> submit </button>
+    
+        </form>
     </footer>
 </body>
 </html>
